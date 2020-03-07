@@ -3,23 +3,24 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: おめめの出張所
+subtitle: NetlifyCMSのテスト
 description:
 keywords:
-author: John Doe
-language: 
+author: memento09
+language:
   - en
   - zh-cn
   - es
+  - ja
 
-timezone:
+timezone: Asia/Tokyo
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://yoursite.com
+url: https://memento-material.netlify.com/
 root: /
-permalink: :lang/:year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
 
 # Directory
@@ -30,7 +31,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render: 
+skip_render:
   - "*admin/*"
 
 # Writing
@@ -48,7 +49,7 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
-  
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -58,7 +59,7 @@ index_generator:
   per_page: 10
   order_by: -date
   single_language_index: true
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
